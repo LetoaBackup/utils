@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const ResetPassword = new mongoose.Schema({
+export const ResetPassword = new mongoose.Schema({
     accountID: {
         type: String,
         required: true,

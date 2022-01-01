@@ -1,6 +1,6 @@
 import { Schema } from "mongoose";
 
-const LoginSchema = new Schema({
+export const LoginSchema = new Schema({
     discordId: {
         type: String,
         required: false,

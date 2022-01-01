@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const GuildModel = new mongoose.Schema({
+export const GuildModel = new mongoose.Schema({
     id: {
         type: String,
     },

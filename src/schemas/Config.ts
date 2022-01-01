@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const ConfigModel = new mongoose.Schema({
+export const ConfigModel = new mongoose.Schema({
     id: {
         type: String,
         required: true,

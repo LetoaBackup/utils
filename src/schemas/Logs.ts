@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const LogSchema = new mongoose.Schema({
+export const LogSchema = new mongoose.Schema({
     accountID: {
         type: String,
         required: false,

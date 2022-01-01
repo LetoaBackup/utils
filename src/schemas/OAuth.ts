@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 // TODO: Add an expiry param.
 // so we can look if the token needs to be refreshed when restoring
-const OAuthSchema = new mongoose.Schema({
+export const OAuthSchema = new mongoose.Schema({
     accessToken: {
         type: String,
         required: true,

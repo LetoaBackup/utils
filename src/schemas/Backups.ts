@@ -1,6 +1,6 @@
 import { Schema } from "mongoose";
 
-const BackupsSchema = new Schema(
+export const BackupsSchema = new Schema(
     {
         name: {},
         region: {},

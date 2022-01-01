@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const UserModel = new mongoose.Schema({
+export const UserModel = new mongoose.Schema({
     discordId: {
         type: String,
         required: true,

@@ -19,4 +19,5 @@ __exportStar(require("./Backups"), exports);
 __exportStar(require("./Config"), exports);
 __exportStar(require("./Guild"), exports);
 __exportStar(require("./Login"), exports);
+__exportStar(require("./Discord"), exports);
 //# sourceMappingURL=index.js.map

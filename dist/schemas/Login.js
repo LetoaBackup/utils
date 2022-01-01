@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.LoginSchema = void 0;
 const mongoose_1 = require("mongoose");
-const LoginSchema = new mongoose_1.Schema({
+exports.LoginSchema = new mongoose_1.Schema({
     discordId: {
         type: String,
         required: false,
@@ -53,5 +54,5 @@ const LoginSchema = new mongoose_1.Schema({
         default: null,
     },
 });
-exports.default = LoginSchema;
+exports.default = exports.LoginSchema;
 //# sourceMappingURL=Login.js.map

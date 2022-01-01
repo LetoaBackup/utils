@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.BackupsSchema = void 0;
 const mongoose_1 = require("mongoose");
-const BackupsSchema = new mongoose_1.Schema({
+exports.BackupsSchema = new mongoose_1.Schema({
     name: {},
     region: {},
     verificationLevel: {},
@@ -21,5 +22,5 @@ const BackupsSchema = new mongoose_1.Schema({
     backup_id: {},
     accountID: { type: String, required: false, default: null },
 }, { strict: false, strictQuery: false });
-exports.default = BackupsSchema;
+exports.default = exports.BackupsSchema;
 //# sourceMappingURL=Backups.js.map

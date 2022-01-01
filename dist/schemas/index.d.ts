@@ -7,3 +7,4 @@ export * from "./Backups";
 export * from "./Config";
 export * from "./Guild";
 export * from "./Login";
+export * from "./Discord";

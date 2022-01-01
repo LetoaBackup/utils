@@ -3,8 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.GuildModel = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
-const GuildModel = new mongoose_1.default.Schema({
+exports.GuildModel = new mongoose_1.default.Schema({
     id: {
         type: String,
     },
@@ -67,5 +68,5 @@ const GuildModel = new mongoose_1.default.Schema({
         default: null,
     },
 });
-exports.default = GuildModel;
+exports.default = exports.GuildModel;
 //# sourceMappingURL=Guild.js.map

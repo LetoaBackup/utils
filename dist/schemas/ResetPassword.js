@@ -3,8 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ResetPassword = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
-const ResetPassword = new mongoose_1.default.Schema({
+exports.ResetPassword = new mongoose_1.default.Schema({
     accountID: {
         type: String,
         required: true,
@@ -38,5 +39,5 @@ const ResetPassword = new mongoose_1.default.Schema({
         required: true,
     },
 });
-exports.default = ResetPassword;
+exports.default = exports.ResetPassword;
 //# sourceMappingURL=ResetPassword.js.map

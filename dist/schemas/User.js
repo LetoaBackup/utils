@@ -3,8 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserModel = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
-const UserModel = new mongoose_1.default.Schema({
+exports.UserModel = new mongoose_1.default.Schema({
     discordId: {
         type: String,
         required: true,
@@ -61,5 +62,5 @@ const UserModel = new mongoose_1.default.Schema({
         default: null,
     },
 });
-exports.default = UserModel;
+exports.default = exports.UserModel;
 //# sourceMappingURL=User.js.map

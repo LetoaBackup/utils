@@ -1,0 +1,56 @@
+import { Schema } from "mongoose";
+
+const LoginSchema = new Schema({
+    discordId: {
+        type: String,
+        required: false,
+        default: null,
+    },
+    accountID: {
+        type: String,
+        required: true,
+    },
+    username: {
+        type: String,
+        required: true,
+    },
+    email: {
+        type: String,
+        required: true,
+    },
+    banned: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
+    premiumLevel: {
+        type: Number,
+        required: false,
+        default: 0,
+    },
+    premiumExpire: {
+        type: Number,
+        required: false,
+        default: null,
+    },
+    token: {
+        type: String,
+        required: true,
+    },
+    password: {
+        type: String,
+        required: true,
+    },
+    previousLinkedAccounts: {
+        type: Array,
+        required: false,
+        default: [],
+    },
+    suspensionExpires: {
+        type: Number,
+        required: false,
+        default: null,
+    },
+});
+
+export default LoginSchema;

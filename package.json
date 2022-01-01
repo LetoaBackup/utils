@@ -1,5 +1,5 @@
 {
-    "name": "@rqzu/utils",
+    "name": "@letoabackups/utils",
     "version": "1.0.0",
     "description": "Utility functions for the all server repositories",
     "main": "dist/index.js",

@@ -40,6 +40,16 @@ exports.ConfigModel = new mongoose_1.default.Schema({
         default: false,
         required: false,
     },
+    customColour: {
+        type: String,
+        required: false,
+        default: null,
+    },
+    redirectLink: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.ConfigModel;
 //# sourceMappingURL=Config.js.map

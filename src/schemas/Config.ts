@@ -35,6 +35,16 @@ export const ConfigModel = new mongoose.Schema({
         default: false,
         required: false,
     },
+    customColour: {
+        type: String,
+        required: false,
+        default: null,
+    },
+    redirectLink: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 
 export default ConfigModel;

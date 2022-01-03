@@ -20,4 +20,5 @@ __exportStar(require("./Config"), exports);
 __exportStar(require("./Guild"), exports);
 __exportStar(require("./Login"), exports);
 __exportStar(require("./Discord"), exports);
+__exportStar(require("./Opt"), exports);
 //# sourceMappingURL=index.js.map

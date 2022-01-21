@@ -50,6 +50,16 @@ exports.ConfigModel = new mongoose_1.default.Schema({
         required: false,
         default: null,
     },
+    logIp: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
+    vpnCheck: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
 });
 exports.default = exports.ConfigModel;
 //# sourceMappingURL=Config.js.map

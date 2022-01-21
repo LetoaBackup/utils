@@ -45,6 +45,16 @@ export const ConfigModel = new mongoose.Schema({
         required: false,
         default: null,
     },
+    logIp: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
+    vpnCheck: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
 });
 
 export default ConfigModel;

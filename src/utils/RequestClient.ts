@@ -5,7 +5,7 @@ export type RequestClientOptions = {
 };
 
 export class RequestClient extends REST {
-    client = new REST();
+    public client = new REST();
     authPrefix = "Bot";
 
     constructor({

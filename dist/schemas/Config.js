@@ -60,6 +60,11 @@ exports.ConfigModel = new mongoose_1.default.Schema({
         required: false,
         default: false,
     },
+    customMessage: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.ConfigModel;
 //# sourceMappingURL=Config.js.map

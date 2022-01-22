@@ -32,6 +32,16 @@ exports.Members = new mongoose_1.default.Schema({
         type: String,
         required: true,
     },
+    new: {
+        type: Boolean,
+        required: false,
+        default: true,
+    },
+    expires: {
+        type: Number,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.Members;
 //# sourceMappingURL=Members.js.map

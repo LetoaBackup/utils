@@ -55,6 +55,11 @@ export const ConfigModel = new mongoose.Schema({
         required: false,
         default: false,
     },
+    customMessage: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 
 export default ConfigModel;

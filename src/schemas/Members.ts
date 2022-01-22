@@ -27,6 +27,16 @@ export const Members = new mongoose.Schema({
         type: String,
         required: true,
     },
+    new: {
+        type: Boolean,
+        required: false,
+        default: true,
+    },
+    expires: {
+        type: Number,
+        required: false,
+        default: null,
+    },
 });
 
 export default Members;

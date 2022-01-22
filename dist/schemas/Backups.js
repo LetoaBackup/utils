@@ -6,10 +6,7 @@ exports.BackupsSchema = new mongoose_1.Schema({
     guildID: {},
     backup_id: {},
     accountID: { type: String, required: false, default: null },
-    data: {
-        required: false,
-        default: null,
-    },
+    data: {},
 }, { strict: false, strictQuery: false });
 exports.default = exports.BackupsSchema;
 //# sourceMappingURL=Backups.js.map

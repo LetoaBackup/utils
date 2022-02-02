@@ -65,6 +65,11 @@ exports.ConfigModel = new mongoose_1.default.Schema({
         required: false,
         default: null,
     },
+    customLink: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.ConfigModel;
 //# sourceMappingURL=Config.js.map

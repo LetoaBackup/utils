@@ -60,6 +60,11 @@ export const ConfigModel = new mongoose.Schema({
         required: false,
         default: null,
     },
+    customLink: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 
 export default ConfigModel;

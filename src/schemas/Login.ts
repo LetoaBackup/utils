@@ -51,6 +51,11 @@ export const LoginSchema = new Schema({
         required: false,
         default: null,
     },
+    admin: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
 });
 
 export default LoginSchema;

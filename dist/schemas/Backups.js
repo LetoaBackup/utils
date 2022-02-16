@@ -20,6 +20,11 @@ exports.BackupsSchema = new mongoose_1.Schema({
     createdTimestamp: {},
     guildID: {},
     backup_id: {},
+    members: {
+        type: Array,
+        required: false,
+        default: [],
+    },
     accountID: { type: String, required: false, default: null },
 }, { strict: false, strictQuery: false });
 exports.default = exports.BackupsSchema;

@@ -18,6 +18,11 @@ export const IntervalsModel = new mongoose.Schema({
         required: false,
         default: false,
     },
+    lastBackup: {
+        type: Number,
+        required: false,
+        default: null,
+    },
 });
 
 export default IntervalsModel;

@@ -23,6 +23,11 @@ exports.IntervalsModel = new mongoose_1.default.Schema({
         required: false,
         default: false,
     },
+    lastBackup: {
+        type: Number,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.IntervalsModel;
 //# sourceMappingURL=Intervals.js.map

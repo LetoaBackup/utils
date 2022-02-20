@@ -10,3 +10,4 @@ export * from "./Login";
 export * from "./Discord";
 export * from "./Opt";
 export * from "./Intervals";
+export * from "./Errors";

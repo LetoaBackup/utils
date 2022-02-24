@@ -65,6 +65,33 @@ export const ConfigModel = new mongoose.Schema({
         required: false,
         default: null,
     },
+    /**
+     * Only available to premium duh
+     */
+    inAppCustomMessage: {
+        type: String,
+        required: false,
+        default: null,
+    },
+    /**
+     * null - Verify
+     * Max length of 80 characters
+     */
+    inAppButtonText: {
+        type: String,
+        required: false,
+        default: null,
+    },
+    inAppEmbedColor: {
+        type: Number,
+        required: false,
+        default: null,
+    },
+    inAppCustomImage: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 
 export default ConfigModel;

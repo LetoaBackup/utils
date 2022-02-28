@@ -62,6 +62,16 @@ export const GuildModel = new mongoose.Schema({
         required: false,
         default: null,
     },
+    name: {
+        type: String,
+        required: false,
+        default: null,
+    },
+    iconURL: {
+        type: String,
+        required: false,
+        default: "https://cdn.letoa.me/default.png",
+    },
 });
 
 export default GuildModel;

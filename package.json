@@ -1,6 +1,6 @@
 {
     "name": "@letoabackup/utils",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Utility functions for the all server repositories",
     "main": "dist/index.js",
     "types": "src/index.ts",

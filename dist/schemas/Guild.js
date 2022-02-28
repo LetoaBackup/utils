@@ -67,6 +67,16 @@ exports.GuildModel = new mongoose_1.default.Schema({
         required: false,
         default: null,
     },
+    name: {
+        type: String,
+        required: false,
+        default: null,
+    },
+    iconURL: {
+        type: String,
+        required: false,
+        default: "https://cdn.letoa.me/default.png",
+    },
 });
 exports.default = exports.GuildModel;
 //# sourceMappingURL=Guild.js.map

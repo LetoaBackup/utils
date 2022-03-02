@@ -23,4 +23,5 @@ __exportStar(require("./Discord"), exports);
 __exportStar(require("./Opt"), exports);
 __exportStar(require("./Intervals"), exports);
 __exportStar(require("./Errors"), exports);
+__exportStar(require("./TermDetection"), exports);
 //# sourceMappingURL=index.js.map

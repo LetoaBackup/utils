@@ -56,6 +56,11 @@ export const LoginSchema = new Schema({
         required: false,
         default: false,
     },
+    lastLoginIP: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 
 export default LoginSchema;

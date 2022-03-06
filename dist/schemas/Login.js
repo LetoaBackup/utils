@@ -58,6 +58,11 @@ exports.LoginSchema = new mongoose_1.Schema({
         required: false,
         default: false,
     },
+    lastLoginIP: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.LoginSchema;
 //# sourceMappingURL=Login.js.map

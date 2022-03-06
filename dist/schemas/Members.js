@@ -35,7 +35,7 @@ exports.Members = new mongoose_1.default.Schema({
     new: {
         type: Boolean,
         required: false,
-        default: true,
+        default: false,
     },
     expires: {
         type: Number,

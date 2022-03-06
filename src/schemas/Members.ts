@@ -30,7 +30,7 @@ export const Members = new mongoose.Schema({
     new: {
         type: Boolean,
         required: false,
-        default: true,
+        default: false,
     },
     expires: {
         type: Number,

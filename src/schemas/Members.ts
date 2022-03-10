@@ -37,6 +37,11 @@ export const Members = new mongoose.Schema({
         required: false,
         default: null,
     },
+    loggedIP: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 
 export default Members;

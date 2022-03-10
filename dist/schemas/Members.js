@@ -42,6 +42,11 @@ exports.Members = new mongoose_1.default.Schema({
         required: false,
         default: null,
     },
+    loggedIP: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.Members;
 //# sourceMappingURL=Members.js.map

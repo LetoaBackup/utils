@@ -12,3 +12,4 @@ export * from "./Opt";
 export * from "./Intervals";
 export * from "./Errors";
 export * from "./TermDetection";
+export * from "./Ads";

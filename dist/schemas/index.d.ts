@@ -13,3 +13,4 @@ export * from "./Intervals";
 export * from "./Errors";
 export * from "./TermDetection";
 export * from "./Ads";
+export * from "./Blacklists";

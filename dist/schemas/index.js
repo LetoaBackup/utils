@@ -25,4 +25,5 @@ __exportStar(require("./Intervals"), exports);
 __exportStar(require("./Errors"), exports);
 __exportStar(require("./TermDetection"), exports);
 __exportStar(require("./Ads"), exports);
+__exportStar(require("./Blacklists"), exports);
 //# sourceMappingURL=index.js.map

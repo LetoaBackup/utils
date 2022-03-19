@@ -77,6 +77,22 @@ exports.GuildModel = new mongoose_1.default.Schema({
         required: false,
         default: "https://cdn.letoa.me/default.png",
     },
+    /**
+     * To see if the server has been activated with premium.
+     */
+    activated: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
+    /**
+     * The `accountID` of the user that activated premium.
+     */
+    activatedBy: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 exports.default = exports.GuildModel;
 //# sourceMappingURL=Guild.js.map

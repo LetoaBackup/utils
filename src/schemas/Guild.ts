@@ -72,6 +72,22 @@ export const GuildModel = new mongoose.Schema({
         required: false,
         default: "https://cdn.letoa.me/default.png",
     },
+    /**
+     * To see if the server has been activated with premium.
+     */
+    activated: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
+    /**
+     * The `accountID` of the user that activated premium.
+     */
+    activatedBy: {
+        type: String,
+        required: false,
+        default: null,
+    },
 });
 
 export default GuildModel;

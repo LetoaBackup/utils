@@ -26,4 +26,6 @@ __exportStar(require("./Errors"), exports);
 __exportStar(require("./TermDetection"), exports);
 __exportStar(require("./Ads"), exports);
 __exportStar(require("./Blacklists"), exports);
+__exportStar(require("./Bans"), exports);
+__exportStar(require("./Instant"), exports);
 //# sourceMappingURL=index.js.map

@@ -16,3 +16,4 @@ export * from "./Ads";
 export * from "./Blacklists";
 export * from "./Bans";
 export * from "./Instant";
+export * from "./Instances";

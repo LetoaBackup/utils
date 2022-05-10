@@ -61,6 +61,11 @@ export const LoginSchema = new Schema({
         required: false,
         default: null,
     },
+    allowedCustomBots: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
 });
 
 export default LoginSchema;

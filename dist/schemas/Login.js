@@ -63,6 +63,11 @@ exports.LoginSchema = new mongoose_1.Schema({
         required: false,
         default: null,
     },
+    allowedCustomBots: {
+        type: Boolean,
+        required: false,
+        default: false,
+    },
 });
 exports.default = exports.LoginSchema;
 //# sourceMappingURL=Login.js.map

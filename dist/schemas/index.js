@@ -28,4 +28,5 @@ __exportStar(require("./Ads"), exports);
 __exportStar(require("./Blacklists"), exports);
 __exportStar(require("./Bans"), exports);
 __exportStar(require("./Instant"), exports);
+__exportStar(require("./Instances"), exports);
 //# sourceMappingURL=index.js.map
